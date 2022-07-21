@@ -7,7 +7,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/*-------- top banner style ----------*/
+/*-------- top banner style start ----------*/
 .top-banner{
     width: 90%;
     margin: 0 auto;
@@ -66,9 +66,9 @@
 .top-banner-img img{
     width: 80%;
 }
-/*-------- top banner style ----------*/
+/*-------- top banner style end ----------*/
 
-/*-------- upcoming section style ----------*/
+/*-------- upcoming section style start ----------*/
 .match-section{
     width: 90%;
     margin: auto;
@@ -95,11 +95,6 @@
 #active{
     background-color: dodgerblue;
     color: #fff;
-}
-#active-match-page{
-    background-color: dodgerblue;
-    color: #fff;
-    border: none;
 }
 .transfar-news-section{
     width: 80%;
@@ -229,6 +224,8 @@
     padding-top: 15px;
 }
 /*----------------- upcoming match desing end -----------------*/
+
+
 /*------------- all News page desing start -------------*/
 .letest-news-container{
     padding-left: 25px;
@@ -268,12 +265,14 @@
     cursor: pointer;
     transform: translateX(10px);
 }
-
 /*------------- all News page desing End -------------*/
+
+
 /*------------------ 
    tablet devices
 ------------------ */
 @media screen and (min-width:689px) and (max-width: 992px) {
+    /* top banner section desing start */
     .top-banner-flexible-container{
         padding: 30px;
     }
@@ -300,6 +299,9 @@
         width: 100%;
         transform: translateY(30px);
     }
+    /* top banner section desing End */
+
+    /* match section style start */
     .match-section{
         flex-direction: column;
         align-items: center;
@@ -319,6 +321,8 @@
     #active{
         border: 1px solid dodgerblue;
     }
+    /* match section style End */
+
     .transfar-news-section{
         grid-template-columns: repeat(2, 1fr);
         padding-left: 0;
@@ -352,7 +356,6 @@
     }
     /*------------- letest-news-section end -------------*/
 
-
     /*--------- footer start ---------*/
     .footer-section{
         width: 100%;
@@ -373,10 +376,15 @@
     }
     /*--------- footer end ---------*/
 }
+
+
+
+
 /*--------------- 
 mobile devices
 --------------- */
 @media screen and (max-width:688px) {
+    /* top banner section desing start */
     .half-width{
         width: 100%;
     }
@@ -431,6 +439,8 @@ mobile devices
     .top-banner-img img{
         width: 100%;
     }
+    /* top banner section desing end */
+
     /* match-section start */
     .match-section{
         flex-direction: column;
@@ -473,6 +483,7 @@ mobile devices
         display: none;
     }
     /* match-section end */
+
     /* upcoming match desing start */
     .match-flags{
         display: flex;
