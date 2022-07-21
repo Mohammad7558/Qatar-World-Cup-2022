@@ -143,9 +143,10 @@
 .footer-section{
     width: 100%;
     background-color: #161616;
+    width: 100%;
     margin-top: 50px;
-    padding-top: 20px;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 .footer-container{
     width: 90%;
@@ -156,7 +157,6 @@
     text-align: center;
     border-bottom: 1px solid rgba(255, 253, 253, 0.315);
     padding-bottom: 25px;
-
 }
 .footer-column-two ul{
     display: flex;
@@ -383,6 +383,7 @@
 /*--------------- 
 mobile devices
 --------------- */
+
 @media screen and (max-width:688px) {
     /* top banner section desing start */
     .half-width{
